@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+header {
+    background: white;
+    padding: 20px 50px;
+    text-align: right;
+    border-bottom: 1px solid gray;
+}
+.seleccion a  {
+    text-decoration: none;
+    margin-right: 20px;
+    color: gray;
+}
+
+/* PRESENTACION */
+
+.presentacion {
+    display: flex;
+    padding: 80px;
+    background-color: white;
+}
+#foto-principal {
+    width: 300px;
+    border-radius: 50%;
+    border: 8px solid #F1B9AE;
+}
+.info-container {
+    margin-left: 100px;
+    margin: 100px;
+}
+.info-container h1, p {
+    color: black;
+}
+
+/* SOBRE MI */
+
+.sobre-mi {
+    background-color: #d8b2e1;
+    padding: 100px 300px;
+}
+.info-sobre-mi h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    color: white;
+}
+.info-sobre-mi p{
+    color: white;
+}
+
+/* CONOCIMIENTOS */
+
+.conocimientos {
+    display: flex;
+    width: 70%;
+    margin: 100px 200px;
+}
+.conocimientos h2 {
+    color: gray;
+}
+.conocimientos ul li {
+    color: gray;
+    margin: 10px;
+}
+#cerebrito {
+    width: 300px;
+    margin-left: 100px;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 5px;
+    background-color: peachpuff;
+    text-align: center;
+}
+footer ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+footer img {
+    width: 40px;
+}
